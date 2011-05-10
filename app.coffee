@@ -16,5 +16,5 @@ server = connect(
     templateFunc: coffeekup.adapters.meryl
     templateDir: 'views'
 )
-server.listen(8080)
-console.log 'listening on port 8080...'
+server.listen(80)
+console.log 'listening on port 80..'
