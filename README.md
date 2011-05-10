@@ -1,1 +1,1 @@
-a simple app built on http://daw,no.de
+a simple app built on http://daw.no.de

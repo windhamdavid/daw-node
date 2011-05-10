@@ -9,7 +9,6 @@ meryl.p(connect.static('public'))
 meryl.get '/', (req, resp) ->
   resp.render 'layout',
     content: 'index'
-    context:
 
 server = connect(
   meryl.cgi
@@ -17,5 +16,5 @@ server = connect(
     templateFunc: coffeekup.adapters.meryl
     templateDir: 'views'
 )
-server.listen(8001)
-console.log 'listening on port 8001...'
+server.listen(8080)
+console.log 'listening on port 8080...'
