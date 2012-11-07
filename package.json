@@ -1,0 +1,14 @@
+{
+  "name": "daw-node",
+  "subdomain": "windhamdavid.daw-node",
+  "scripts": {
+    "start": "server.js"
+  },
+  "version": "0.0.0",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "coffee-script": "*"
+  }
+}
